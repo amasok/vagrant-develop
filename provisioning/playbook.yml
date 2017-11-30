@@ -6,6 +6,7 @@
   - yatesr.timezone
   - geerlingguy.ntp
   - ansible-role-zsh
+  - ansible-role-tmux
 
   vars:
     timezone: Asia/Tokyo # for yatesr.timezone
