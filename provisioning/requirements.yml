@@ -3,8 +3,9 @@
 # - src: reallyenglish.ntpd
 - src: geerlingguy.ntp
 
-  ## from github
-  #- src: https://github.com/bennojoy/nginx
+# from github
+- src: https://github.com/amasok/ansible-role-zsh.git
+- src: https://github.com/amasok/ansible-role-tmux.git
   #
   ## from github with tag
   #- src: https://github.com/ANXS/mysql.git
