@@ -1,0 +1,11 @@
+# from galaxy
+- src: yatesr.timezone
+# - src: reallyenglish.ntpd
+- src: geerlingguy.ntp
+
+  ## from github
+  #- src: https://github.com/bennojoy/nginx
+  #
+  ## from github with tag
+  #- src: https://github.com/ANXS/mysql.git
+  #  version: v1.0.3

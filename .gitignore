@@ -1,0 +1,5 @@
+*.swp
+.vagrant/*
+data/*
+provisioning/roles/*
+!provisioning/roles/.keep

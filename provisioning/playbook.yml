@@ -1,0 +1,21 @@
+---
+- hosts: all
+  become: yes
+  user: vagrant
+  roles:
+  - yatesr.timezone
+  - geerlingguy.ntp
+  - ansible-role-zsh
+
+  vars:
+    timezone: Asia/Tokyo # for yatesr.timezone
+    ntp_timezone: Asia/Tokyo
+    ntp_manage_config: true
+    ntp_restrict:
+    - "127.0.0.1"
+    - "::1"
+    # ntpd_upstreams: # for reallyenglish.ntpd
+    # - time1.google.com
+    # - time2.google.com
+    # - time3.google.com
+    # - time4.google.com
